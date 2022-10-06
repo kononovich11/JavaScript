@@ -34,3 +34,13 @@ function positiveSum(arr) {
   arr.forEach(item => item > 0? res+=item : 0);
   return res;
 }
+
+// Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
+
+function repeatStr (n, s) {
+  let str = '';
+  for (let i = n; n > 0; n--) {
+    str += s;
+  }
+  return str;
+}
