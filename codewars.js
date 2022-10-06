@@ -20,3 +20,9 @@ function numberToString(num) {
 function boolToWord( bool ){
   return bool? 'Yes' : 'No';
 }
+
+// Return Negative
+
+function makeNegative(num) {
+  return num > 0? -num : num;
+}
