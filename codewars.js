@@ -26,3 +26,11 @@ function boolToWord( bool ){
 function makeNegative(num) {
   return num > 0? -num : num;
 }
+
+// You get an array of numbers, return the sum of all of the positives ones.
+
+function positiveSum(arr) {
+  let res = 0;
+  arr.forEach(item => item > 0? res+=item : 0);
+  return res;
+}
