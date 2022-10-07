@@ -56,3 +56,8 @@ class SmallestIntegerFinder {
   return min;
   }
 }
+
+// Remove String Spaces
+function noSpace(x){
+  return x.split('').filter(item => item !== ' ').join('');
+}
