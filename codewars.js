@@ -114,3 +114,15 @@ function solution(a, b){
   return a.length < b.length? `${a+b+a}` :`${b+a+b}`;
 }
 
+// Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
+
+function between(a, b) {
+  let arr = [];
+  let min, max;
+  a < b? (min = a, max = b) : (min = b, max = a);
+  for(; min <= max; min++) {
+    arr.push(min);
+  }
+  return arr;
+}
+
