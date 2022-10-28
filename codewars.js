@@ -93,3 +93,15 @@ function getAverage(marks){
 function areYouPlayingBanjo(name) {
   return name[0].toLowerCase() === 'r'? `${name} plays banjo` : `${name} does not play banjo`;
 }
+
+// Count the Monkeys!
+// 10 --> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// 1 --> [1]
+
+function monkeyCount(n) {
+  let arr = [];
+  for (let i = 1; i <= n; i++) {
+    arr.push(i);
+  }
+  return arr; 
+}
